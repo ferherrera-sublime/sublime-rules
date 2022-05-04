@@ -1,0 +1,11 @@
+name: My custom rule to test updates
+description: |
+  Some testing rule
+references: 
+  - "https://threatpost.com/malformed-url-prefix-phishing-attacks-spike-6000/164132/"
+severity: high
+type: rule
+source: |
+  any(body.links, iregex_search(.href_url.url, 'http://'))
+tags:
+  - "Suspicious link"
