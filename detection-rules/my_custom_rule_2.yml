@@ -6,6 +6,6 @@ references:
 severity: high
 type: rule
 source: |
-  type.inbound and ilike(subject.subject, '*fwe*')
+  type.inbound and ilike(subject.subject, '*fwd*')
 tags:
   - "FWD"
