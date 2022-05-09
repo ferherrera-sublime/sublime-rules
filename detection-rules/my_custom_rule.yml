@@ -6,6 +6,6 @@ references:
 severity: high
 type: rule
 source: |
-  any(body.links, iregex_search(.href_url.url, 'http://'))
+  any(body.links, iregex_search(.href_url.url, '[h]ttp://'))
 tags:
-  - "Suspicious link"
+  - "Testing rule"
