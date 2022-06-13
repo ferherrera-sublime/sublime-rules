@@ -1,0 +1,8 @@
+name: Any Item
+description: |
+  Any item
+severity: low
+type: rule
+source: |
+  type.inbound and true
+
