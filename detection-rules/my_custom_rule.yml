@@ -1,9 +1,9 @@
 name: My custom rule to test updates
 description: |
-  Some testing rule
+  Some testing rule to check udates
 references: 
   - "https://threatpost.com/malformed-url-prefix-phishing-attacks-spike-6000/164132/"
-severity: high
+severity: low
 type: rule
 source: |
   any(body.links, iregex_search(.href_url.url, '[h]ttp://'))

@@ -1,7 +1,7 @@
 name: Any Item
 description: |
   Any item
-severity: low
+severity: medium
 type: rule
 source: |
   type.inbound and true
