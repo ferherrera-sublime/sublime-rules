@@ -1,0 +1,10 @@
+name: Test inactive feed rule
+description: |
+  Any Test inactive feed rule
+severity: medium
+type: rule
+source: |
+  strings.contains(body.plain.raw, "inactive feed rule")
+  or strings.contains(subject.subject, "inactive")
+
+
