@@ -1,4 +1,4 @@
-name: "Brand impersonation: Wells Fargo"
+name: "Test recently updated rule"
 description: |
   Impersonation of Wells Fargo Bank.
 references:
@@ -23,3 +23,4 @@ tags:
   - "Updated Fri Mar 31 12:39:11 PM EDT 2023"
   - "Updated Fri Mar 31 11:43:57 AM CDT 2023"
   - "Updated Fri Mar 31 12:45:35 PM EDT 2023"
+  - "Updated Fri Mar 31 12:49:12 PM EDT 2023"
